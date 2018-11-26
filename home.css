@@ -1,0 +1,162 @@
+body{
+  font-family: "Microsoft Yahei"; 
+  background-color:#333232;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding:3px 100px;
+    font-size: 18px;
+    line-height: 20px;
+
+}
+.navbar-inverse {
+    background-color: #fff;  
+    border-color: #504f4f;
+    border-bottom-width: 5px;
+    padding-top: 20px;
+    height: 70px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #000;
+    margin-right: 60px;
+    padding-right: 5px;
+
+
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: blue;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+.h1, h1 {
+    font-size: 40px;
+    color: white;
+}
+.h4, h4 { 
+    color: #9B9B9B;
+}
+.input-group{
+	padding-top: 10px;
+}
+.input-group .form-control{
+   background-color:#504f4f;
+   border:1px;
+    width: 100%;
+    color: white;
+}
+.mask{
+    position:fixed;
+    top     : 0;
+    left    : 0;
+    bottom  : 0;
+    right   : 0;
+    background:rgba(0,0,0,.3);
+    /*background:hsla(0,100%,80%,0.5)*/
+    /*background:#000;  */
+	opacity:0.5;
+}
+.input-group .btn{
+   background-color: #504f4f;
+   border:1px solid #504f4f;
+}
+.container {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.container {
+  width: 1000px;
+}
+.col-md-12 .col-md-4 .aa .videodiv{
+    position: relative;
+}
+.col-md-12 .row .col-md-4 .aa .textdivs{
+    position: absolute;
+    top: 130px;
+    left: 165px;
+    visibility: hidden;
+    color: white;
+    font-size: 20px;
+}
+
+.col-md-12 .row .col-md-4 .aas {
+   opacity: 0.0;
+}
+
+.col-md-12 .row .aat{
+ margin-top:30px;margin-left:0px;height:220px;object-fit: fill;
+    position: relative;
+}
+.col-md-12 .row .aat:hover{
+ background-color: #242323;
+}
+.col-md-12 .row .aat .text_show{
+    top: 90px;
+    left: 125px;
+    position: absolute;
+    color: #B0B0B0;
+    font-size: 20px;
+    font-family: "Microsoft YaHei UI";
+}
+
+.pagination>li>a, .pagination>li>span {
+    background-color: #333232;
+    border: 0px solid #333333;
+    color: white ;
+    font-family: "Microsoft YaHei UI";
+
+}
+.btn-sample {
+  color: #AACFC6;
+  background-color: #333232;
+  border-color: #333232;
+
+}
+
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+  color: #AACFC6;
+  background-color: #060508;
+  border-color: #626263;
+}
+
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+  background-image: none;
+}
+
+.btn-sample.disabled,
+.btn-sample[disabled],
+fieldset[disabled] .btn-sample,
+.btn-sample.disabled:hover,
+.btn-sample[disabled]:hover,
+fieldset[disabled] .btn-sample:hover,
+.btn-sample.disabled:focus,
+.btn-sample[disabled]:focus,
+fieldset[disabled] .btn-sample:focus,
+.btn-sample.disabled:active,
+.btn-sample[disabled]:active,
+fieldset[disabled] .btn-sample:active,
+.btn-sample.disabled.active,
+.btn-sample[disabled].active,
+fieldset[disabled] .btn-sample.active {
+  background-color: #333232;
+  border-color: #333232;
+}
+.btn-sample .badge {
+  color: #424245;
+  background-color: #AACFC6;
+}
